@@ -81,6 +81,12 @@ conda env create -f arrag.yml
 
 ## Patch-level Retrieval Database & Retriever Construction
 
+### Download the checkpoint of VQ-VAE model from [LlamaGen](https://github.com/FoundationVision/LlamaGen)
+
+```bash
+wget -P arrag/Janus/janus https://huggingface.co/peizesun/llamagen_t2i/resolve/main/vq_ds16_t2i.pt
+```
+
 ### Construct Retreiver from Image Data
 
 ```bash
